@@ -29,14 +29,14 @@ function About({}: Props) {
         transition={{
             duration:1.2
         }}
-        viewport={{
-            once:true
-        }}
+        // viewport={{
+        //     once:true
+        // }}
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
         src="https://i.postimg.cc/1ztZFwMB/301608204-1377147196028336-3503007109111159602-n.jpg"
         />
 
-        <div className='space-y-10 px-0 '>
+        <div className='space-y-10 px-10'>
             <h4 className='text-4xl font-semibold'>Here is <span className='underline decoration-[#F7AB0A]/50'>Little</span> Background</h4>
             <p className='text-base'>I'm Ramandeep singh. I am Student at Chandigarh Group of college, Jhanjeri Mohali. I am becaming a Full Stack Devloper. I have Aggregate CGPA 8.83. I Have Knowlege about The Full Stack Technoleges.</p>
         </div>
